@@ -379,6 +379,12 @@ section {
     color: var(--text-primary);
 }
 
+.timeline-location {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 0.25rem;
+}
+
 .timeline-date {
     color: var(--primary-color);
     font-weight: 600;

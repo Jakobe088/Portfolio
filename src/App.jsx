@@ -4,7 +4,7 @@ import profileImage from './assets/profile.JPG'
 import gymAppImage from './assets/Screenshot 2026-01-22 134012.png'
 import dungeonImage from './assets/dungeon.png'
 import demoVideo from './assets/Demo4Video.mp4'
-import resumeImage from './assets/Resume.png'
+import resumePdf from './assets/2026Resume.pdf'
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -121,12 +121,12 @@ function App() {
                 <h1>Jacob O'Neill</h1>
                 <p className="subtitle">Full Stack Developer</p>
                 <p className="description">
-                  I am a student at Iowa State University pursing a degree in software engineering.
-                  I am currently in my third year of college. With 7 years of coding experience, I have honed my skills in becoming a full stack developer.
-                  I love learning and adding more to my skill set. 
+                  I am a student at Iowa State University pursuing a degree in software engineering, with minors in Applied Artificial Intelligence and Artificial Intelligence.
+                  I am currently in my fourth year of college. With 7 years of coding experience, I have honed my skills in becoming a full stack developer.
+                  I love learning and adding more to my skill set.
                 </p>
                 <div className="hero-buttons">
-                  <a href={resumeImage} download="Jacob_ONeill_Resume.png" className="btn btn-primary">Download Resume</a>
+                  <a href={resumePdf} download="Jacob_ONeill_Resume.pdf" className="btn btn-primary">Download Resume</a>
                   <a href="#contact" className="btn btn-secondary">Get In Touch</a>
                   <a href="#projects" className="btn btn-secondary">View Projects</a>
                 </div>
@@ -188,20 +188,21 @@ function App() {
                 <div className="timeline-content">
                   <h3>Student - Iowa State University</h3>
                   <p className="timeline-date">August 2023 - May 2027</p>
-                  <p>Currently pursuing a degree in Software Engineering. 
-                    Projected to graducate in 2027. Becoming a Bachelor of Science in Computer 
-                    Science. Have taken courses in software engineering, data structures, and algorithms. </p>
+                  <p>Currently pursuing a degree in Software Engineering, with minors in Applied Artificial Intelligence and Artificial Intelligence.
+                    Projected to graduate in 2027 with a Bachelor of Science in Computer Science.
+                    Current GPA: 2.91. Dean's List, Spring 2026 (3.73 GPA).
+                    Have taken courses in software engineering, data structures, and algorithms.</p>
                 </div>
               </div>
               <div className="timeline-item">
                 <div className="timeline-marker"></div>
                 <div className="timeline-content">
-                  <h3>Web Developer - Desi Eats</h3>
+                  <h3>Co-Lead Developer - Desi Eats</h3>
                   <p className="timeline-date">January 2025 - Present</p>
                   <p>Developed core backend functionality and page navigation for Desi Eats’ production website.
-                       Built an interactive meal customization system allowing users to select ingredients and adjust quantities dynamically
+                       Built an interactive meal customization system allowing users to select ingredients and adjust quantities dynamically.
                        Assisted with calorie tracking display and menu data flow.
-                       Contributed to a platform receiving 20,000+ monthly visits and ranking #1 on Google for “Desi Eats”!</p>
+                       Contributed to a platform receiving hundreds of monthly visits and ranking #1 on Google for “Desi Eats”!</p>
                   <a href="https://www.desieatsus.com/" target="_blank" rel="noopener noreferrer" className="project-link timeline-project-link">View Project →</a>
                 </div>
               </div>
@@ -209,6 +210,7 @@ function App() {
                 <div className="timeline-marker"></div>
                 <div className="timeline-content">
                   <h3>Software Development Intern - SourceTech-iit</h3>
+                  <p className="timeline-location">Remote</p>
                   <p className="timeline-date">June 2025 - August 2025</p>
                   <ul>
                     <p>Collaborated across engineering teams to complete development tasks throughout the full software lifecycle.
@@ -218,6 +220,15 @@ function App() {
                      Shadowed senior developers to understand company architecture, deployment flow, and daily engineering operations.
                      Independently completed assigned development tasks while coordinating with teammates for integration.</p>
                   </ul>
+                </div>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-marker"></div>
+                <div className="timeline-content">
+                  <h3>IT Support Intern - IIT-Sourcetech</h3>
+                  <p className="timeline-location">Lisle & Harvey, Illinois</p>
+                  <p className="timeline-date">May 2026 - August 2026</p>
+                  <p>Built and configured desktop computers, installed hardware, and prepared systems for employee use. Configured and managed wireless access points to support office network connectivity. Assisted with troubleshooting device, account, and connectivity issues for employees. Set up and configured computers and user accounts for new employees during the onboarding process. Shadowed senior IT professionals to gain hands-on experience with PC hardware, network infrastructure, and daily IT operations. Gained practical experience with network infrastructure, including switches, firewalls, network ports, and wireless networking. Independently completed assigned IT tasks while working alongside senior staff to understand troubleshooting procedures, infrastructure management, and daily IT operations.</p>
                 </div>
               </div>
             </div>
